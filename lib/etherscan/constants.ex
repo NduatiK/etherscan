@@ -14,7 +14,12 @@ defmodule Etherscan.Constants do
         default: "https://api.etherscan.io/api",
         ropsten: "https://api-ropsten.etherscan.io/api",
         kovan: "https://api-kovan.etherscan.io/api",
-        rinkeby: "https://api-rinkeby.etherscan.io/api"
+        rinkeby: "https://api-rinkeby.etherscan.io/api",
+        #
+        arbitrum: "https://api.arbiscan.io/api",
+        base: "https://api.basescan.org/api",
+        bnb_chain: "https://api.bscscan.com/api",
+        optimism: "https://api-optimistic.etherscan.io/api"
       ]
       @api_networks Keyword.keys(@api_network_urls)
 
